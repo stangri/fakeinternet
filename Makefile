@@ -17,7 +17,7 @@ define Package/fakeinternet
 	DEPENDS:=+uhttpd +uhttpd-mod-ubus
 	DEPENDS+=+!BUSYBOX_DEFAULT_GREP:grep
 	TITLE:=Fakeinternet Service
-	URL:=https://docs.openwrt.melmac.net/fakeinternet/
+	URL:=https://github.com/stangri/fakeinternet/
 	PKGARCH:=all
 endef
 
